@@ -79,5 +79,6 @@ SampleApp::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
+  # have to comment out this line to avoid error when pushing to heroku:
+  #config.active_record.dump_schema_after_migration = false
 end
