@@ -1,4 +1,7 @@
 SampleApp::Application.routes.draw do
+  get "ccsf_rails/index"
+  get "ccsf_rails/links"
+  get "ccsf_rails/about"
   get "static_pages/home"
   get "static_pages/help"
   get "static_pages/about"
