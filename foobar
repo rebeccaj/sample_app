@@ -1,0 +1,32 @@
+// Place all the styles related to the CcsfRails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Our SCSS
+
+$background-color: #abcdef;
+$sans-serif: "Trebuchet MS", Helvetica, sans-serif;
+$serif: "Times New Roman", Times, serif;
+$text-color: #012345;
+$link-color: #0000aa;
+
+body { background-color: $background-color;color:$text-color}
+.welcome {
+  font-family:$serif;
+  width:41em;
+  margin: 50px auto;
+  div {
+    border-radius: 31px;
+    background-color: White;
+    p {
+      background-color:#444;
+      color: #eee;
+      li {
+        font-family: ;
+        a {
+          color: darken($link-color, 20%);
+          font-family:$sans-serif;
+        }
+      }
+    }
+  }
+}
